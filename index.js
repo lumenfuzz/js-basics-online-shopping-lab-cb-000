@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
   var obj_item = {name: item}
-  cart.push(item)
+  cart.push(obj_item)
 }
 
 function viewCart() {
